@@ -7,7 +7,7 @@ Login page
 ***/
 /* logo page */
 .login {
-  background-color: #261436 !important; /* Dark Purple */
+  background-color: #666 !important;
 }
 
 .login .logo {
@@ -17,7 +17,7 @@ Login page
 }
 
 .login .content {
-  background: rgba(248, 241, 243, 0.9); /* Bright Gray with opacity */
+  background: url(../img/bg-white-lock.png) repeat;
   width: 360px;
   margin: 0 auto;
   margin-bottom: 0px;
@@ -29,22 +29,19 @@ Login page
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
   border-radius: 7px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .login .content h3 {
-  color: #261436; /* Dark Purple */
+  color: #eee;
 }
 
 .login .content h4 {
-  color: #6C3ED4; /* Aconite Purple */
+  color: #eee;
 }
 
 .login .content p,
 .login .content label {
-  color: #261436; /* Dark Purple */
+  color: #fff;
 }
 
 .login .content .login-form,
@@ -54,24 +51,7 @@ Login page
 }
 
 .login .content .form-control {
-  background-color: #F8F1F3; /* Bright Gray */
-  border: 1px solid #BE92E8; /* Bright Lavender */
-}
-
-.login .content .form-control:focus {
-  border-color: #6C3ED4; /* Aconite Purple */
-  box-shadow: 0 0 0 0.2rem rgba(108, 62, 212, 0.25);
-}
-
-.login .content .btn.blue {
-  background-color: #6C3ED4; /* Aconite Purple */
-  border-color: #6C3ED4;
-  color: #F8F1F3; /* Bright Gray */
-}
-
-.login .content .btn.blue:hover {
-  background-color: #BE92E8; /* Bright Lavender */
-  border-color: #BE92E8;
+  background-color: #fff;
 }
 
 .login .content .forget-form {
@@ -123,15 +103,18 @@ Login page
 }
 
 .login .content .forget-password {
-  color: #6C3ED4 !important; /* Aconite Purple */
+  margin-top: 25px;
 }
 
 .login .content .create-account {
-  border-top: 1px dotted #6C3ED4; /* Aconite Purple */
+  border-top: 1px dotted #eee;
+  padding-top: 10px;
+  margin-top: 15px;
 }
 
 .login .content .create-account a {
-  color: #6C3ED4 !important; /* Aconite Purple */
+  display: inline-block;
+  margin-top: 5px;
 }
 
 /* select2 dropdowns */
@@ -165,13 +148,8 @@ Login page
   text-align: center;
   margin: 0 auto;
   padding: 10px;
-  color: #BE92E8; /* Bright Lavender */
+  color: #eee;
   font-size: 13px;
-}
-
-/* Social icons hover color */
-.login .content .social-icons li a:hover {
-  background-color: #EBC20C !important; /* Jonquil */
 }
 
 @media (max-width: 480px) {
