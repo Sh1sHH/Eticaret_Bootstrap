@@ -555,7 +555,8 @@ Page Header
       width: 255px;
       height: 75px; }
       .page-header .page-header-top .page-logo .logo-default {
-        margin: 29.5px 0 0 0; }
+        margin: 19.5px;
+      }
     .page-header .page-header-top .top-menu {
       margin: 13px 0 0;
       padding: 0;
@@ -1660,6 +1661,7 @@ Quick Sidebar Content
   margin: 0;
   color: #c5ccd5; }
 
+
 .breadcrumb > li + li:before {
   display: none; }
 
@@ -1670,10 +1672,10 @@ Quick Sidebar Content
   top: -1px; }
 
 .breadcrumb > .active {
-  color: #9eacb4; }
+  color: #F8F1F3; }
 
 .page-content {
-  background: #eff3f8;
+  background: #3E3E3E;
   padding: 15px 0 15px; }
 
 @media (max-width: 991px) {
